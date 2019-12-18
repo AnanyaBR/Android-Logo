@@ -1,0 +1,108 @@
+
+*{
+   box-sizing: border-box;
+    
+}
+
+.main{
+    position:relative;
+    display:block;
+    height:500px;
+    background-color:aqua;
+    width: 25%;
+    border: 5px solid black;
+    margin:150px;
+    
+}
+.send{
+    position:absolute;
+    background-color:#dcf8c6;
+    right:2px;
+    border-radius:5px;
+    margin:10px;
+    padding:10px;
+}
+.sendtime{
+    float:right;
+    font-size:10px;
+    color:darkgray;
+    padding:5px;
+    
+}
+.receivetime{
+    float:left;
+    font-size:10px;
+    color:darkgray;
+    padding:5px;
+    
+}
+.receive{
+    position:absolute;
+    background-color: antiquewhite;
+    border-radius:5px;
+    margin:10px;
+    padding:10px;
+}
+.msgbox{
+    margin:2px,2px;
+}
+.profile{
+    background-color: darkgreen;
+    height:50px;
+    padding:15px;
+}
+.name{
+    
+    padding-left:20px;
+    font-size:large;
+    font-style: italic;
+    font-weight: 900;
+    color:white;
+ 
+}
+.close{
+    padding-left:165px;
+    font-size: 15px;
+    color:burlywood;
+    
+}
+.line{
+   
+    height:40px;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom:dashed;
+    border-bottom-color: grey;
+    border-bottom-width: thin;
+    
+}
+
+.day{
+    display: inline;
+    text-align:center;
+    background-color:antiquewhite;
+    font-size: 12px;
+    padding:5px;
+}
+.line1{
+   
+    height:70px;
+    text-align: center;
+    border-bottom:dashed;
+    border-bottom-color: grey;
+    border-bottom-width: thin;
+    
+}
+.text{
+    
+    border-radius:10px;
+    font-size:20px;
+    margin-left:10px;
+    }
+.sendb{
+    position:absolute;
+    right:7px;
+    border-radius:10px;
+    font-size: 20px
+    
+}
